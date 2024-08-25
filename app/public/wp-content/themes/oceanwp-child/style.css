@@ -10,4 +10,20 @@ Version: 3.5.9.1723574942
 Updated: 2024-08-13 18:49:02
 
 */
-
+/* Modifier la couleur de fond des champs de saisie */
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 input[type="url"],
+.wpcf7 input[type="password"],
+.wpcf7 input[type="date"],
+.wpcf7 textarea,
+.wpcf7 select {
+    background-color: #ffffff; /* Blanc */
+    color: #000000; /* Couleur du texte noire */
+    padding: 20px; /* Ajuster le padding pour le confort */
+    box-sizing: border-box;
+	border-radius: 7px; /* Rayon des angles arrondis */
+	margin-bottom: 15px; /* Espace sous chaque champ de saisie */
+	display: block;
+}

@@ -20,5 +20,14 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
-
 // END ENQUEUE PARENT ACTION
+
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+	
+    if (is_user_logged_in() && $args->menu == "planty") {
+         $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="#">My Account</a></li>';
+    }
+  
+    return $items;
+}
