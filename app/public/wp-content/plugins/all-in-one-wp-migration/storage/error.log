@@ -1,0 +1,3 @@
+Aug 27 2024 08:21:43
+{"type":8,"message":"unserialize(): Error at offset 0 of 565 bytes","file":"C:\\Users\\grand\\Local Sites\\Planty2\\app\\public\\wp-content\\plugins\\wordfence\\vendor\\wordfence\\wf-waf\\src\\lib\\storage\\file.php","line":622}
+

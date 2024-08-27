@@ -27,3 +27,76 @@ Stack trace:
 #5 C:\Users\grand\Local Sites\Planty2\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
 #6 {main}
   thrown in C:\Users\grand\Local Sites\Planty2\app\public\wp-content\plugins\elementor\core\documents-manager.php on line 515
+[27-Aug-2024 08:17:58 UTC] Unable to open C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config-synced.php for reading and writing.
+[27-Aug-2024 08:17:58 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:17:58 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:19:59 UTC] Unable to open C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config-transient.php for reading and writing.
+[27-Aug-2024 08:19:59 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:19:59 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:07 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:08 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:08 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:08 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:08 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:08 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:10 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:10 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:10 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:12 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:12 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:12 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:13 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:13 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:13 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:22 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:22 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:23 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:23 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:23 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:23 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:27 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:27 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:27 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:28 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:28 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:28 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:29 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:29 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:30 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:30 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:30 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:33 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:33 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:33 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:35 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:35 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:35 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:38 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:38 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:38 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:39 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:39 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:39 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:43 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:43 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:21:43 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:22:00 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:22:00 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:22:00 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:24:01 UTC] Unable to open C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config-synced.php for reading and writing.
+[27-Aug-2024 08:24:01 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:24:01 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:26:02 UTC] Unable to open C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config-transient.php for reading and writing.
+[27-Aug-2024 08:26:02 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:26:02 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:28:03 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:28:03 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:28:03 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:28:03 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
+[27-Aug-2024 08:28:03 UTC] Error reading Wordfence Firewall config data, configuration file could be corrupted or inaccessible. Path: C:/Users/grand/Local Sites/Planty2/app/public/wp-content/wflogs/config.php
