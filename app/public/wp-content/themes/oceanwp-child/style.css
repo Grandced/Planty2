@@ -1,20 +1,17 @@
-.wpcf7-form id:40dd537 {  
+.formulaire-contact-1 id:40dd537 { 
     max-width: 383px; /* Limite la largeur maximale du formulaire */  
     margin: auto; /* Centre le formulaire dans la page */  
-}  
-.wpcf7-form input[type="text"],  
-.wpcf7-form input[type="email"],  
-.wpcf7-form textarea {  
+}
+.wpcf7 input[type="text"],  
+.wpcf7 input[type="email"],  
+.wpcf7 textarea {  
 	height: 71px;
     background-color: white; /* Fond blanc pour les champs de saisie */  
     border-radius: 5px; /* Bords arrondis pour les champs */  
     padding: 10px; /* Espacement interne */  
-    border: 1px solid #ccc; /* Bordure grise */  
+    border: 1px solid #fff; /* Bordure grise */  
     width: 100%; /* Largeur complète */  
     margin-bottom: 10px; /* Espacement entre les champs */
-}
-.wpcf7 textarea {  
-    height: 237px !important; /* Définit la hauteur du champ de message */  
 }
 .wpcf7 .wpcf7-submit {  
     width: 198px; /* Largeur du bouton */  
@@ -28,5 +25,54 @@
     transition: background-color 0.3s; /* Ajoute une transition douce pour le changement de couleur */  
 }  
 .wpcf7 .wpcf7-submit:hover {  
-    background-color: #C02E44; /* Couleur de fond au survol */  
+    background-color: #C02E44; 
 }
+/******************************************Formulaire 2***********************************************/
+/* Formulaire de contact */
+.formulaire-contact {
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr; /* Deux colonnes avec une colonne centrale pour la ligne de séparation */
+    max-width: 1000px;
+    margin: 50px auto; /* Centrer le formulaire */
+    align-items: center;
+    background-color: transparent; /* Supprimer la couleur de fond verte */
+}	
+/*champs de saisie*/
+.formulaire-contact label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #fff; /* Couleur du texte */
+}
+/*************************************bouton************************/
+.formulaire-contact input {
+    width: 100%;
+    max-width: 100%; /* Utiliser 100% pour s'adapter à la colonne */
+    padding: 8px;
+    border-radius: var(--border-radius);
+    margin-bottom: var(--spacing-20);
+    background-color: var(--color-white);
+    color: var(--color-secondary);
+    box-sizing: border-box;
+}
+/****************************** Ligne de séparation ***************************************/
+.separator {
+    grid-column: 2 / 3;
+    background-color: #fff; /* Couleur de la ligne de séparation */
+    width: 2px; /* Largeur de la ligne */
+    justify-self: center;
+    height: 10%; /* La ligne prend toute la hauteur du conteneur */
+}
+.separator::before {
+    content: "";
+    position: absolute;
+    top: -20px; /* Ajustez cette valeur pour faire dépasser le séparateur en haut */
+    left: 50%;
+    transform: translateX(-50%); /* Centre le séparateur horizontalement */
+    width: 2px;
+    height: 430px; /* Hauteur de la partie qui dépasse */
+    background-color: #fff; /* Couleur de la partie qui dépasse */
+}
+
+
+
