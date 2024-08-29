@@ -1,3 +1,4 @@
+/*********************************************************************** formulaire contact **********************************************/
 .formulaire-contact-1 id:40dd537 { 
     max-width: 383px; /* Limite la largeur maximale du formulaire */  
     margin: auto; /* Centre le formulaire dans la page */  
@@ -18,7 +19,7 @@
     height: 55px; /* Hauteur du bouton */  
     border-radius: 5px; /* Arrondi des coins */  
     background-color: #E0B9B4; /* Couleur de fond */  
-    color: #fff; /* Couleur du texte (ajustez si nécessaire) */  
+    color: #fff; /* Couleur du texte */  
     position: relative; /* Nécessaire pour utiliser top et left */  
     display: block; /* Change le bouton en bloc pour pouvoir le centrer */  
     margin: 0 auto; /* Centre le bouton horizontalement */  
@@ -27,7 +28,7 @@
 .wpcf7 .wpcf7-submit:hover {  
     background-color: #C02E44; 
 }
-/******************************************Formulaire 2***********************************************/
+/*******************************************************Formulaire contact***************************************************************/
 /* Formulaire de contact */
 .formulaire-contact {
     display: grid;
@@ -44,7 +45,7 @@
     font-weight: bold;
     color: #fff; /* Couleur du texte */
 }
-/*************************************bouton************************/
+/*************************************bouton**********************************************/
 .formulaire-contact input {
     width: 100%;
     max-width: 100%; /* Utiliser 100% pour s'adapter à la colonne */
@@ -61,18 +62,99 @@
     background-color: #fff; /* Couleur de la ligne de séparation */
     width: 2px; /* Largeur de la ligne */
     justify-self: center;
-    height: 10%; /* La ligne prend toute la hauteur du conteneur */
+    height: 100%; /* La ligne prend toute la hauteur du conteneur */
 }
-.separator::before {
+
+/*********************************************************formulaire de saisi************************************/
+.form-wrapper {
+    text-align: center;
+    padding: 20px;
+    background-color:transparent;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    background-color: #ffffff; /* Fond blanc */
+    color: #000000; /* Texte en noir (facultatif) */
+}
+
+.order-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-item {
+    width: 50%;
+    text-align: center;
+
+}
+
+.item-image {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.input[type="number"] {
+    width: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/*********************************************ligne de separation*************************************/
+.form-wrapper {
+    position: relative;
+    padding: 20px 0; /* Ajouter de l'espace en haut et en bas pour les lignes */
+}
+
+.form-wrapper::before,
+.form-wrapper::after {
     content: "";
+    display: block;
+    width: 100%;
+    height: 2px; /* Hauteur de la ligne de séparation */
+    background-color: #fff; /* Couleur de la ligne */
     position: absolute;
-    top: -20px; /* Ajustez cette valeur pour faire dépasser le séparateur en haut */
-    left: 50%;
-    transform: translateX(-50%); /* Centre le séparateur horizontalement */
-    width: 2px;
-    height: 430px; /* Hauteur de la partie qui dépasse */
-    background-color: #fff; /* Couleur de la partie qui dépasse */
+    left: 0;
 }
 
+.form-wrapper::before {
+    top: 0; /* Ligne en haut */
+}
 
+.form-wrapper::after {
+    bottom: 0; /* Ligne en bas */
+}
 
+.order-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.item-image {
+    width: 100px; /* Ajustez selon la taille souhaitée */
+    height: 100px; /* Ajustez selon la taille souhaitée */
+    background-size: cover;
+    margin: 0 auto 10px auto;
+}
+.form-wrapper h2 {
+    color: white;
+	font-size: 36px;
+	font-weight: normal;
+}
