@@ -1,4 +1,4 @@
-/*********************************************************************** formulaire contact **********************************************/
+/************************************************************formulaire contact Nous rencontre**********************************************/
 .formulaire-contact-1 id:40dd537 { 
     max-width: 383px; /* Limite la largeur maximale du formulaire */  
     margin: auto; /* Centre le formulaire dans la page */  
@@ -42,9 +42,10 @@
 .formulaire-contact label {
     display: block;
     margin-bottom: 15px;
-    font-weight: bold;
+    font-weight: normal;
     color: #fff; /* Couleur du texte */
 }
+
 /*************************************bouton**********************************************/
 .formulaire-contact input {
     width: 100%;
@@ -55,6 +56,7 @@
     background-color: var(--color-white);
     color: var(--color-secondary);
     box-sizing: border-box;
+	margin-top: 15px;
 }
 /****************************** Ligne de séparation ***************************************/
 .separator {
@@ -72,23 +74,26 @@
     background-color:transparent;
     border-radius: 10px;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 .wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     background-color: #ffffff; /* Fond blanc */
     color: #000000; /* Texte en noir (facultatif) */
+	margin-top: 15px;
 }
 
 .order-options {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+	width: 1050px;
+	margin-left: -40px;
 }
 
 .order-item {
     width: 50%;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -120,7 +125,7 @@
 /*********************************************ligne de separation*************************************/
 .form-wrapper {
     position: relative;
-    padding: 20px 0; /* Ajouter de l'espace en haut et en bas pour les lignes */
+    padding: 20px ; /* Ajouter de l'espace en haut et en bas pour les lignes */
 }
 
 .form-wrapper::before,
@@ -144,17 +149,24 @@
 
 .order-item {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: -10px;
 }
 
 .item-image {
-    width: 100px; /* Ajustez selon la taille souhaitée */
-    height: 100px; /* Ajustez selon la taille souhaitée */
+    width: 192px; /* Ajustez selon la taille souhaitée */
+    height: 128px; /* Ajustez selon la taille souhaitée */
     background-size: cover;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 1px auto;
 }
+/**************************************************Titre************************************************************/ 
 .form-wrapper h2 {
+	text-align: left;
     color: white;
 	font-size: 36px;
 	font-weight: normal;
+}
+.titre {
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
 }
