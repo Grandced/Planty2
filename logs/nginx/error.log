@@ -3,3 +3,5 @@
 2024/08/27 12:21:57 [error] 7232#14988: *1144 upstream timed out (10060: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "POST /wp-cron.php?doing_wp_cron=1724752678.3109331130981445312500 HTTP/1.0", upstream: "fastcgi://127.0.0.1:10015", host: "planty.local"
 2024/08/28 16:48:55 [alert] 25720#30204: worker process 35316 exited with code C0000142
 2024/08/28 16:48:55 [alert] 25720#30204: could not respawn worker
+2024/08/30 12:48:34 [error] 35024#4836: *15685 WSARecv() failed (10054: FormatMessage() error:(15100)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /commander/url-de-l-image-pamplemousse HTTP/1.0", upstream: "fastcgi://127.0.0.1:10015", host: "planty.local", referrer: "http://planty.local/commander/"
+2024/08/30 12:48:34 [error] 35024#4836: *15691 WSARecv() failed (10054: FormatMessage() error:(15105)) while reading response header from upstream, client: 127.0.0.1, server: , request: "GET /commander/url-de-l-image-citron HTTP/1.0", upstream: "fastcgi://127.0.0.1:10015", host: "planty.local", referrer: "http://planty.local/commander/"
