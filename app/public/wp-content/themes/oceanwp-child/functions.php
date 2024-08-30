@@ -23,11 +23,35 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 10 );
 // END ENQUEUE PARENT ACTION
 
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+
 function add_extra_item_to_nav_menu( $items, $args ) {
-	
-    if (is_user_logged_in() && $args->menu == "planty") {
-         $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="#">My Account</a></li>';
+
+    if ( is_user_logged_in() && $args->menu == "header" ) {
+               $new_item = '<li class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a href="#"><strong>Admin</strong></a></li>';
+        $items = '<ul class="horizontal-menu">' . $items . '</ul>';
+
+        // Convertir les éléments de menu en un tableau
+        $items_array = explode('</li>', $items);
+
+        // Insérer l'élément à la position souhaitée (par exemple, entre le 2e et le 3e élément)
+        $position = 1; // Position de l'insertion (après le 1er élément)
+        array_splice($items_array, $position, 0, $new_item);
+
+        // Ajouter la balise de fermeture </li> à tous les éléments, sauf au dernier
+        $items_with_closing_li = implode('</li>', $items_array);
+        $items_with_closing_li = rtrim($items_with_closing_li, '</li>');
+        $items_with_closing_li .= '</li>';
+        
+
+        // Reconstruire la chaîne d'éléments du menu
+        $items = '<ul class="horizontal-menu">' . $items_with_closing_li . '</ul>';
     }
-  
+
     return $items;
 }
+
+function custom_styles() {
+    wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/style.css' );
+}
+
+add_action( 'wp_enqueue_scripts', 'custom_styles' );

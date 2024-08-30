@@ -170,3 +170,11 @@
 	font-size: 36px;
 	font-weight: bold;
 }
+/*********************************************menu admin******************************************************************/
+.horizontal-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "syne", sans-serif;
+}
+}
