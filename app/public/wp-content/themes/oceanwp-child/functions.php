@@ -42,14 +42,12 @@ function add_extra_item_to_nav_menu( $items, $args ) {
         $items_with_closing_li = rtrim($items_with_closing_li, '</li>');
         $items_with_closing_li .= '</li>';
         
-
         // Reconstruire la chaîne d'éléments du menu
         $items = '<ul class="horizontal-menu">' . $items_with_closing_li . '</ul>';
     }
 
     return $items;
 }
-
 function custom_styles() {
     wp_enqueue_style( 'custom-css', get_stylesheet_directory_uri() . '/style.css' );
 }

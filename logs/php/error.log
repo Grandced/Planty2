@@ -267,3 +267,6 @@ Stack trace:
 #30 {main}
   thrown in C:\Users\grand\Local Sites\Planty2\app\public\wp-content\themes\oceanwp-child\functions.php on line 29
 [30-Aug-2024 07:17:15 UTC] PHP Fatal error:  Cannot redeclare custom_styles() (previously declared in C:\Users\grand\Local Sites\Planty2\app\public\wp-content\themes\oceanwp-child\functions.php:33) in C:\Users\grand\Local Sites\Planty2\app\public\wp-content\themes\oceanwp-child\functions.php on line 32
+[31-Aug-2024 09:30:23 UTC] PHP Warning:  file_get_contents(C:\Users\grand\Local Sites\Planty2\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\grand\Local Sites\Planty2\app\public\wp-includes\functions.php on line 6864
+[31-Aug-2024 09:30:47 UTC] PHP Warning:  file_get_contents(C:\Users\grand\Local Sites\Planty2\app\public/wp-content/plugins/ocean-extra/ocean-extra.php): Failed to open stream: No such file or directory in C:\Users\grand\Local Sites\Planty2\app\public\wp-includes\functions.php on line 6864
+[31-Aug-2024 14:26:07 UTC] PHP Warning:  Undefined array key "editor_post_id" in C:\Users\grand\Local Sites\Planty2\app\public\wp-content\plugins\elementor\modules\history\revisions-manager.php on line 363

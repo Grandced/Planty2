@@ -61,13 +61,14 @@
 .formulaire-contact input {
     width: 100%; /* S'adapte à la largeur de la colonne */
     padding: 8px;
-    border-radius: var(--border-radius);
-    margin-bottom: var(--spacing-20);
-    background-color: var(--color-white);
-    color: var(--color-secondary);
+    border-radius: 5px; /* Remplacez var(--border-radius) par la valeur réelle */
+    margin-bottom: 20px; /* Remplacez var(--spacing-20) par la valeur réelle */
+    background-color: #ffffff; /* Remplacez var(--color-white) par la valeur réelle */
+    color: #333333; /* Remplacez var(--color-secondary) par la valeur réelle */
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 
 /****************************** Ligne de séparation ***************************************/
 .separator {
@@ -198,4 +199,69 @@ input[type="number"] {
     justify-content: space-between;
     align-items: center;
     font-family: "syne", sans-serif;
+}
+
+/* Styles par défaut */
+.order-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 1050px;
+    margin-left: -40px;
+}
+
+/******************************************************** Media query pour les écrans de 600px de large ou moins ************************************************/
+@media (max-width: 600px) {
+    .order-options {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        align-items: center; /* Centre les éléments enfants horizontalement */
+    }
+
+    .order-options img {
+        margin-bottom: 20px; /* Ajoute un espace sous chaque image */
+    }
+}
+/* Taille de police par défaut pour les boutons */
+.elementor-kit-5 button, 
+.elementor-kit-5 input[type="button"], 
+.elementor-kit-5 input[type="submit"], 
+.elementor-kit-5 .elementor-button {
+    font-size: 16px; /* Taille de police par défaut */
+}
+
+/* Media query pour les écrans de 768px ou plus */
+@media (min-width: 768px) {
+    .elementor-kit-5 button, 
+    .elementor-kit-5 input[type="button"], 
+    .elementor-kit-5 input[type="submit"], 
+    .elementor-kit-5 .elementor-button {
+        font-size: 18px; /* Taille de police pour les tablettes et plus */
+    }
+}
+
+/* Media query pour les écrans de 1024px ou plus */
+@media (min-width: 1024px) {
+    .elementor-kit-5 button, 
+    .elementor-kit-5 input[type="button"], 
+    .elementor-kit-5 input[type="submit"], 
+    .elementor-kit-5 .elementor-button {
+        font-size: 20px; /* Taille de police pour les grands écrans */
+    }
+	@media (max-width: 600px) {
+    .formulaire-contact {
+        display: block; /* Change la grille en un bloc pour les petits écrans */
+    }
+
+    .formulaire-contact > * {
+        width: 100%; /* Assure que chaque élément prend toute la largeur disponible */
+        margin-bottom: 20px; /* Ajoute un espace entre les éléments */
+    }
+    .separator {
+        display: none; /* Cache la ligne de séparation sur mobile */
+    }
+}
+
+
 }
