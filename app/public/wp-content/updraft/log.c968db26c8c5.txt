@@ -1,0 +1,15 @@
+0000.009 () Opened log file at time: Mon, 02 Sep 2024 13:15:49 +0000 on http://planty.local
+0000.010 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (cgi-fcgi, Windows NT PC-CEDRIC 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.8M | 8M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.010 () Free space on disk containing Updraft's temporary directory: 335613.8 MB
+0000.033 () Restore setup, now closing connection and starting restore over AJAX.
+0000.006 () Opened log file at time: Mon, 02 Sep 2024 13:15:49 +0000 on http://planty.local
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (cgi-fcgi, Windows NT PC-CEDRIC 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.8M | 8M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 335612.3 MB
+0000.008 () Ensuring WP_Filesystem is setup for a restore
+0000.009 () WP_Filesystem is setup and ready for a restore
+0000.015 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_e_events","wp_wfblockediplog","wp_wfblocks7","wp_wfconfig","wp_wfcrawlers","wp_wffilechanges","wp_wffilemods","wp_wfhits","wp_wfhoover","wp_wfissues","wp_wfknownfilelist","wp_wflivetraffichuman","wp_wflocs","wp_wflogins","wp_wfls_2fa_secrets","wp_wfls_role_counts","wp_wfls_settings","wp_wfnotifications","wp_wfpendingissues","wp_wfreversecache","wp_wfsecurityevents","wp_wfsnipcache","wp_wfstatus","wp_wftrafficrates","wp_wfwaffailures"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.018 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\grand\Local Sites\Planty2\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.021 () Error message: Des dossiers existants non supprimés d’une restauration précédente existent (veuillez utiliser le bouton « Supprimer les anciens dossiers » pour les supprimer avant de réessayer) : C:\Users\grand\Local Sites\Planty2\app\public/wp-content/updraft/plugins-old
+0000.026 () Restore failed...
+0000.026 () Error message: Des dossiers existants non supprimés d’une restauration précédente existent (veuillez utiliser le bouton « Supprimer les anciens dossiers » pour les supprimer avant de réessayer) : C:\Users\grand\Local Sites\Planty2\app\public/wp-content/updraft/plugins-old
+0000.026 () Restore failed

@@ -61,14 +61,14 @@
 .formulaire-contact input {
     width: 100%; /* S'adapte à la largeur de la colonne */
     padding: 8px;
-    border-radius: var(--border-radius);
-    margin-bottom: var(--spacing-20);
-    background-color: var(--color-white);
-    color: var(--color-secondary);
+    border-radius: 5px; /* Remplacez var(--border-radius) par la valeur réelle */
+    margin-bottom: 20px; /* Remplacez var(--spacing-20) par la valeur réelle */
+    background-color: #ffffff; /* Remplacez var(--color-white) par la valeur réelle */
+    color: #333333; /* Remplacez var(--color-secondary) par la valeur réelle */
     box-sizing: border-box;
     margin-top: 10px;
-	 font-size: 18px;
 }
+
 
 /****************************** Ligne de séparation ***************************************/
 .separator {
@@ -97,7 +97,6 @@
     background-color: #ffffff; /* Fond blanc */
     color: #000000; /* Texte en noir (facultatif) */
     margin-top: 15px;
-	align-items: center;
 }
 
 .order-options {
@@ -109,7 +108,6 @@
 }
 
 .order-item {
-	color: red;
     text-align: center;
     margin-bottom: -10px;
     width: 50%; /* Ajuster selon la taille souhaitée */
@@ -131,7 +129,7 @@
     font-weight: bold;
 }
 
-.input[type="number"] {
+input[type="number"] {
     width: 50px;
     text-align: center;
     font-size: 1.2em;
@@ -203,13 +201,7 @@
     font-family: "syne", sans-serif;
 }
 
-/***********************************************respocive***************************************************************/
-@media screen and (max-width: 600px) {
-  .button {
-    font-size: 14px;
-    padding: 8px 16px;
- } 
-
+/* Styles par défaut */
 .order-options {
     display: flex;
     justify-content: space-between;
@@ -218,44 +210,37 @@
     margin-left: -40px;
 }
 
-/********************************** Media query pour les écrans de 600px de large ou moins *********************************/
+/******************************************************** Media query pour les écrans de 600px de large ou moins ************************************************/
 @media (max-width: 600px) {
     .order-options {
         flex-direction: column;
-        width: 100%;
-        margin-left: 0;
-        align-items: center;
+        width: 300px;
     }
 
-    .order-options img {
-        margin-bottom: 10px; 
-    }
-
+/* Media query pour les écrans de 768px ou plus */
+@media (min-width: 768px) {
     .elementor-kit-5 button, 
     .elementor-kit-5 input[type="button"], 
     .elementor-kit-5 input[type="submit"], 
     .elementor-kit-5 .elementor-button {
-    	font-size: 18px;
+        font-size: 18px; /* Taille de police pour les tablettes et plus */
+    }
+@media (max-width: 767px) {
+    .formulaire-contact {
+        grid-template-columns: 1fr; /* Une seule colonne */
+        grid-gap: 20px; /* Espacement entre les éléments (optionnel) */
+    }
+
+    .order-options {
+        flex-direction: column; /* Disposition en colonne pour les options */
+        align-items: center; /* Centrer les éléments horizontalement */
+        width: 100%; /* Occupe toute la largeur disponible */
+        margin-left: 0; /* Supprime tout décalage à gauche */
+    }
+.elementor-kit-5 button, .elementor-kit-5 input[type="button"], .elementor-kit-5 input[type="submit"], .elementor-kit-5 .elementor-button {
+        font-size: 10px;
     }
 }
+	
 
-/********************************** Media query pour les écrans de 1024px de large ou moins *********************************/
-@media (max-width: 1024px) { 
-   .order-options {
-        flex-direction: column;
-        width: 100%;
-        margin-left: 0;
-        align-items: center;
-    }
 
-    .order-options img {
-        margin-bottom: 10px; 
-    }
-
-    .elementor-kit-5 button, 
-    .elementor-kit-5 input[type="button"], 
-    .elementor-kit-5 input[type="submit"], 
-    .elementor-kit-5 .elementor-button {
-    	font-size: 18px;
-    }
-}
