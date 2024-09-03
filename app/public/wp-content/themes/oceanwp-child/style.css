@@ -217,11 +217,16 @@ input[type="number"] {
    .formulaire-contact h2 {
         text-align: center; /* Centrer le texte du titre */
 	  	margin-top: 100px;
+	   font-size: 14px;
     }
     .separator {
         display: none; /* Masquer la ligne de séparation */
     }
-	
+	.form-wrapper h2, .titre {
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
 }
 
 /* Media query pour les écrans inférieurs à 1100px */
