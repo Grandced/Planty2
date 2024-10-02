@@ -421,3 +421,10 @@
 0000.016 (1) [Debug] Lock option (updraft_lock_dd388f1414a7, wp_options) was created in the database
 0000.019 (1) [Info] Lock (updraft_lock_dd388f1414a7, wp_options) acquired after initialising the database
 0000.022 (1) This backup task (dd388f1414a7) is either complete or began over 2 days ago: ending (1725283661.3856, ) (existing jobdata keys: )
+0000.000 (1) Opened log file at time: Tue, 03 Sep 2024 12:42:40 +0000 on http://planty.local
+0000.005 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.1 PHP: 8.1.29 (cgi-fcgi, Windows NT PC-CEDRIC 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=33554432) WPLANG: fr_FR Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 6M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (1) Free space on disk containing Updraft's temporary directory: 334458.7 MB
+0000.014 (1) Requesting backup semaphore lock (dd388f1414a7)
+0000.023 (1) [Debug] Lock option (updraft_lock_dd388f1414a7, wp_options) was created in the database
+0000.025 (1) [Info] Lock (updraft_lock_dd388f1414a7, wp_options) acquired after initialising the database
+0000.030 (1) This backup task (dd388f1414a7) is either complete or began over 2 days ago: ending (1725367360.621, ) (existing jobdata keys: )

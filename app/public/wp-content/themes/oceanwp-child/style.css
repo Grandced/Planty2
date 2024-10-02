@@ -12,6 +12,7 @@
     margin-bottom: 10px; /* Espacement entre les champs */
 }
 
+
 .wpcf7 .wpcf7-submit {  
     width: 198px; /* Largeur du bouton */  
     height: 55px; /* Hauteur du bouton */  
@@ -19,7 +20,7 @@
     background-color: #E0B9B4; /* Couleur de fond */  
     color: #fff; /* Couleur du texte */  
     position: relative; /* Nécessaire pour utiliser top et left */  
-    display: block; /* Change le bouton en bloc pour pouvoir le centrer */  
+    display: block; /* Change le bouton en bloc pour pouvoir le centrer */ 
     margin: 0 auto; /* Centre le bouton horizontalement */  
     transition: background-color 0.3s; /* Ajoute une transition douce pour le changement de couleur */  
 }  
@@ -41,13 +42,13 @@
     margin-top: 150px;
 }
 
-.formulaire-contact h2 {
+/*.formulaire-contact h2 {
     grid-column: 1 / 4; /* Les titres couvrent toutes les colonnes */
     color: #fff; /* Couleur du texte des titres */
     font-size: 36px; /* Taille du texte des titres */
     font-weight: normal;
     margin-bottom: 20px; /* Espacement sous les titres */
-}
+}*/
 
 /* Champs de saisie */
 .formulaire-contact label {
@@ -222,6 +223,7 @@ input[type="number"] {
     .separator {
         display: none; /* Masquer la ligne de séparation */
     }
+	
 	.form-wrapper h2, .titre {
     text-align: left;
     color: white;
@@ -250,32 +252,10 @@ input[type="number"] {
         height: 150px; /* Ajuster la hauteur si nécessaire pour mieux s'adapter à deux colonnes */
        
     }
-}
-
-/************************************ Taille de police par défaut pour les boutons *************************************************************/
-.elementor-kit-5 button, 
-.elementor-kit-5 input[type="button"], 
-.elementor-kit-5 input[type="submit"], 
-.elementor-kit-5 .elementor-button {
-    font-size: 16px; /* Taille de police par défaut */
-}
-
-/* Media query pour les écrans de 768px ou plus */
-@media (min-width: 768px) {
-    .elementor-kit-5 button, 
-    .elementor-kit-5 input[type="button"], 
-    .elementor-kit-5 input[type="submit"], 
+@media (max-width: 1100px) {
+    .elementor-kit-5 button,
+	.elementor-kit-5 input[type="button"],
+	.elementor-kit-5 input[type="submit"], 
 	.elementor-kit-5 .elementor-button {
-        font-size: 16px; /* Taille de police pour les tablettes et plus */
+     font-size: 10px;
     }
-}
-
-/* Media query pour les écrans de 1024px ou plus */
-@media (min-width: 1024px) {
-    .elementor-kit-5 button, 
-    .elementor-kit-5 input[type="button"], 
-    .elementor-kit-5 input[type="submit"], 
-	.elementor-kit-5 .elementor-button {
-        font-size: 20px; /* Taille de police pour les grands écrans */
-    }
-}
